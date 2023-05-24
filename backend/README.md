@@ -2,12 +2,12 @@
 
 <br>
 
-### Esta aplicação deve ser inicializada junto com o [frontend](https://github.com/notOliveira/Bookshifter-Frontend).
+### Esta aplicação deve ser inicializada junto com o [frontend](https://github.com/Bookshifter/Bookshifter/tree/main/frontend).
 - Aplicação rodando por padrão na porta 8080. Caso queira alterar, altere a porta no arquivo [application.properties](/src/main/resources/application.properties), na seguinte linha:
 ```
 server.port=<porta desejada>
 ```
-- Importante lembrar que, caso haja alteração na porta do servidor, altere também os arquivos onde há fetchs das APIs no [frontend](https://github.com/notOliveira/Bookshifter-Frontend), para que não haja erros durante a execução das aplicações.
+- Importante lembrar que, caso haja alteração na porta do servidor, altere também os arquivos onde há fetchs das APIs no [frontend](https://github.com/Bookshifter/Bookshifter/tree/main/frontend), para que não haja erros durante a execução das aplicações.
 <br>
 
 ### Dependências
