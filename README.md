@@ -1,9 +1,8 @@
-# Bookshifter
+# [Bookshifter](https://github.com/Bookshifter/Bookshifter)
 
-#### Obs: As duas aplicações devem ser inicializadas em conjunto.
 <br>
 
-A aplicação <b>frontend</b> está configurada para inicializar na porta <b>3000</b>.
+A aplicação [frontend](https://github.com/Bookshifter/Bookshifter/tree/main/frontend) está configurada para inicializar na porta <b>3000</b>.
 <br>
 
 - Caso queira alterar estas configurações, no frontend, altere a porta no arquivo [package.json](frontend/package.json), na seguinte linha:
@@ -13,7 +12,7 @@ A aplicação <b>frontend</b> está configurada para inicializar na porta <b>300
   ```
 <br>
 
-A aplicação <b>backend</b> está configurada para inicializar na porta <b>8080</b>.
+A aplicação [backend](https://github.com/Bookshifter/Bookshifter/tree/main/backend) está configurada para inicializar na porta <b>8080</b>.
 <br>
 
 - Caso queira alterar, altere a porta no arquivo [application.properties](backend/src/main/resources/application.properties), na seguinte linha:
@@ -23,6 +22,8 @@ server.port=<porta desejada>
 ```
 
 Lembre-se: caso haja alteração em alguma dessas portas, você terá que alterar todas as linhas onde essas portas estão sendo referenciadas, de ambos os projetos.
+
+#### As duas aplicações devem ser inicializadas em conjunto!
 ___
 
 ## Instruções - Frontend
